@@ -1,0 +1,7 @@
+<ruleset name="midway.io">
+        <target host="ros.midway.io" />
+        <target host="ilo.midway.io" />
+        <target host="ilo2.midway.io" />
+        <rule from="^http:"
+                to="https:" />
+</ruleset>
